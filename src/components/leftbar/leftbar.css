@@ -1,0 +1,62 @@
+.leftBar {
+  flex: 3;
+  height: calc(100vh - 50px);
+  /* this is to ensure that only the left bar scrolls vertically, along the y-axis */
+  overflow-y: scroll;
+  /* background-color: brown; */
+}
+/* This ::-webkit-scrollbar designs the scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 179, 179);
+  border-radius: 5px;
+}
+.leftBarWrapper {
+  padding: 20px;
+}
+.leftBarList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.leftBarListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.leftBarIcon {
+  margin-right: 15px;
+}
+.leftBarButton {
+  width: 150px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.leftBarHr {
+  margin: 20px 0;
+}
+.leftBarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.leftBarFriend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.leftBarFriendImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  /* object fit cover ensures that the picture doesn't look funny */
+  object-fit: cover;
+  margin-right: 10px;
+}
