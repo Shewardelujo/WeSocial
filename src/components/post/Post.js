@@ -22,11 +22,17 @@ const Post = () => {
         </div>
         <div className="postCenter">
           <span className="postText">Hey! It's my first post:)</span>
-          {/* <img className="postImg" src="./assets/person/1.jpg" alt="" /> */}
+          <img className="postImg" src="./assets/person/1.jpg" alt="" />
         </div>
         <div className="postBottom">
-          <div className="postBottomLeft"></div>
-          <div className="postBottomRight"></div>
+          <div className="postBottomLeft">
+            <img className="likeIcon" src="./assets/post/like.png" alt="" />
+            <img className="likeIcon" src="./assets/post/heart.png" alt="" />
+            <span className="postLikeCounter">32 people like it</span>
+          </div>
+          <div className="postBottomRight">
+            <span className="postCommentText">9 comments</span>
+          </div>
         </div>
       </div>
     </div>
