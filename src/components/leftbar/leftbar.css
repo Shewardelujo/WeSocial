@@ -3,7 +3,8 @@
   height: calc(100vh - 50px);
   /* this is to ensure that only the left bar scrolls vertically, along the y-axis */
   overflow-y: scroll;
-  /* background-color: brown; */
+  position: sticky;
+  top: 50px;
 }
 /* This ::-webkit-scrollbar designs the scrollbar */
 ::-webkit-scrollbar {
