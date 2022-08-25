@@ -57,7 +57,7 @@ const LeftBar = () => {
           </li>
         </ul>
         <button className="leftBarButton">Show More</button>
-        <hr className="leftBarHr" />(
+        <hr className="leftBarHr" />
         <ul className="leftBarFriendList">
           {Users.map((u) => (
             <CloseFriend key={u.id} user={u} />
